@@ -1,5 +1,5 @@
 {
-  "id": "https://github.com/rolfvreijdenberger/jsend-json-schema/jsend-v4.json",
+  "id": "https://github.com/rolfvreijdenberger/jsend-json-schema/blob/master/jsend-json-schema-v4",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "jsend json schema",
   "description": "This is a json-schema for the jsend format for json responses for applications. see https://labs.omniti.com/labs/jsend/wiki",
