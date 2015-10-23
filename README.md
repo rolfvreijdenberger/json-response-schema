@@ -14,7 +14,7 @@ example of extended format
   "status": "fail",
   "data": [
     {
-      "message": "invalid combination of postcode huisnummer",
+      "message": "invalid combination of postalcode/housenumber",
       "code": 123
     },
     {
