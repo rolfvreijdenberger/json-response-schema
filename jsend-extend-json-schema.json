@@ -67,6 +67,9 @@
         "message": {
           "$ref": "#/definitions/message"
         },
+        "code": {
+          "$ref": "#/definitions/code"
+        },
         "data": {
           "description": "A generic container for any other information about the error, i.e. the conditions that caused the error, stack traces, etc.",
           "$ref": "#/definitions/data"
@@ -74,7 +77,7 @@
       }
     },
     "code": {
-      "description": "A numeric code corresponding to the error in an error result, if applicable",
+      "description": "A numeric code providing info about a failure or error in a result, if applicable",
       "type": [
         "string",
         "integer"
