@@ -11,7 +11,7 @@
     "messages": {
       "description": "an array of message objects related to the failure",
       "type": "array",
-      "minItems": 0,
+      "minItems": 1,
       "items": {
         "description": "an object that contains fields related to a failure",
         "type": "object",
