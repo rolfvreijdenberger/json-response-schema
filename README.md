@@ -1,5 +1,5 @@
 # json-response-schema
-This repository contains [json-schemas](http://www.jsonschemavalidator.net/) and schemas that extend the [jsend schema](https://labs.omniti.com/labs/jsend/wiki) so you can adhere to a standard for structured json responses for applications, focusing specifically on structuring response data as an application-level standard. 
+This repository contains [json-schemas](http://www.jsonschemavalidator.net/) and schemas that extend the [jsend schema](https://labs.omniti.com/labs/jsend/wiki) so you can adhere to a standard for structured json responses for applications, focusing specifically on structuring response data in a consistent format as an application-level standard. 
 
 # prefered usage of schemas
 - [the non-REST-full schema implementation](https://github.com/rolfvreijdenberger/json-response-schema/blob/master/jsend-extend-fail-error-json-schema.json): a structured and consistent way to use json data for applications. easy and informative without the need to use http statuses other than 2xx in your application
