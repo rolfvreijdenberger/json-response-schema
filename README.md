@@ -1,6 +1,12 @@
 # json-response-schema
 This repository contains [json-schemas](http://www.jsonschemavalidator.net/) and schemas that extend the [jsend schema](https://labs.omniti.com/labs/jsend/wiki) so you can adhere to a standard for structured json responses for applications. 
 
+# prefered usage of schemas
+- [the non-REST-full schema implementation](https://github.com/rolfvreijdenberger/json-response-schema/blob/master/jsend-extend-fail-error-json-schema.json): a structured and consistent way to use json data for applications. easy and informative without the need to use http statuses other than 2xx in your application
+- [the REST-full schema implementation](https://github.com/rolfvreijdenberger/json-response-schema/blob/master/rest-fail-response-json-schema.json): a structured way to use json data for applications that is tailored to use in REST-full applications by not enforcing a resource schema in case the response is succesful (http status code 2xx) and by using a structured way for responses in http 4xx and 5xx.
+- [the jsend extended schema implementation](https://github.com/rolfvreijdenberger/json-response-schema/blob/master/jsend-extend-json-schema.json): a simple extension over jsend that makes the jsend response a little more consistent.
+- [the jsend schema implementation](https://github.com/rolfvreijdenberger/json-response-schema/blob/master/jsend-json-schema.json):
+
 This repository contains extensions on the JSend format to address the lack of structure and information in the response data with status 'fail'. Specifically, it specifies an array of objects containing at least a 'message' key and an optional 'code' and 'field' key. More information can be found in the schema jsend-extend-json-schema.json. 
 
 This repository also contains a non-JSend related schema for RESTful responses for failed/error responses. REST architecture is about getting resources. JSEND actually does not send a resource back in case of 'status':'succes', but an envelope around a resource, by enforcing it to be wrapped in a 'data' key. 
